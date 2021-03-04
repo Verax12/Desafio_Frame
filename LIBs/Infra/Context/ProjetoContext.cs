@@ -26,9 +26,9 @@ namespace LIBs.Infra.Context
 
 
 
-            modelBuilder.Entity<Venda>().HasOne(v => v.Vendedor).WithMany(x => x.Vendas).HasForeignKey(x => x.VendedorCodigo);
+            modelBuilder.Entity<Venda>().HasOne(v => v.Vendedor).WithMany(x => x.Vendas);
             modelBuilder.Entity<Vendedor>().HasMany(x => x.Vendas).WithOne(x => x.Vendedor);
-
+            
         }
     }
 

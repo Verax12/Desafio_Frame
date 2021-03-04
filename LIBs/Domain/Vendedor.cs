@@ -11,6 +11,6 @@ namespace LIBs.Domain
         public string CPF { get; set; }
         public string Email { get; set; }
 
-        public ICollection<Venda> Vendas { get; set; }
+        public List<Venda> Vendas { get; set; }
     }
 }

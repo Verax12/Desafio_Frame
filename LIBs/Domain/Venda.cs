@@ -10,8 +10,10 @@ namespace LIBs.Domain
     public class Venda : BaseModel
     {
         public List<Veiculo> Veiculos { get; set; }
+
         public EnumStatusVenda StatusVenda { get;set;}
         public Guid VendedorCodigo { get; set; }
+
         [Required]
         public Vendedor Vendedor { get; set; }
     }

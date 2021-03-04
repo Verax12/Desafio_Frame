@@ -46,6 +46,7 @@ namespace API.Controllers
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
         public void PostASync(Venda venda)
         {
+            _serviceVenda.PreparaVenda(ref venda);
             _serviceVenda.AddAsync(venda);
         }
         [ProducesResponseType((int)HttpStatusCode.Created, Type = typeof(Venda))]

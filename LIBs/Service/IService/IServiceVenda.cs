@@ -8,5 +8,6 @@ namespace LIBs.Service.IService
     public interface IServiceVenda : IServiceBase<Venda>
     {
         bool ValidaStatusVenda(Venda vendaAPersistir);
+        void PreparaVenda(ref Venda venda);
     }
 }

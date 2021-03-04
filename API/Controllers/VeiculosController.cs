@@ -59,7 +59,8 @@ namespace API.Controllers
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
         public void Put(Veiculo veiculo)
         {
-            _serviceVeiculo.Update(veiculo);
+                _serviceVeiculo.DetachLocal(p => p.Codigo == veiculo.Codigo);
+                _serviceVeiculo.Update(veiculo);
         }
     }
 }

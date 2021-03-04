@@ -83,11 +83,6 @@ namespace API
                 app.UseHsts();
             }
 
-            var scope = app.ApplicationServices.CreateScope();
-            var service = scope.ServiceProvider.GetService<ProjetoContext>();
-
-            AdicionarDadosIniciais(service);
-
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>
@@ -95,6 +90,13 @@ namespace API
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Desafio Framw");
                 c.RoutePrefix = string.Empty;
             });
+
+            var scope = app.ApplicationServices.CreateScope();
+            var service = scope.ServiceProvider.GetService<ProjetoContext>();
+
+            AdicionarDadosIniciais(service);
+
+          
 
             app.UseHttpsRedirection();
             app.UseMvc();

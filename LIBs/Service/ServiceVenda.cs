@@ -22,8 +22,12 @@ namespace LIBs.Service
             EnumStatusVenda statusVendaPersistida = _repositoryVenda.GetById(venda.Codigo).StatusVenda;            
 
             return _statusVenda.VerificaStatusVenda(venda, statusVendaPersistida);
+ 
+        }
 
-            
+        public void PreparaVenda(ref Venda venda)
+        {
+            venda.StatusVenda = 0;
         }
 
     }

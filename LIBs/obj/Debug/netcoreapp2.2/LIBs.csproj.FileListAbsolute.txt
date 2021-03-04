@@ -1,0 +1,12 @@
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\bin\Debug\netcoreapp2.2\LIBs.deps.json
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\bin\Debug\netcoreapp2.2\LIBs.dll
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\bin\Debug\netcoreapp2.2\LIBs.pdb
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\obj\Debug\netcoreapp2.2\LIBs.csproj.CoreCompileInputs.cache
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\obj\Debug\netcoreapp2.2\LIBs.AssemblyInfoInputs.cache
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\obj\Debug\netcoreapp2.2\LIBs.AssemblyInfo.cs
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\obj\Debug\netcoreapp2.2\LIBs.csproj.CopyComplete
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\obj\Debug\netcoreapp2.2\LIBs.dll
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\obj\Debug\netcoreapp2.2\LIBs.pdb
+C:\Users\william.montreal\source\repos\Desafio_Frame\LIBs\obj\Debug\netcoreapp2.2\LIBs.csprojAssemblyReference.cache
